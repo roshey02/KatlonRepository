@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/test5/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#shopping_cart_container \u003e\u003e internal:role\u003dlink",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20240519_144701/test5/20240519_144704/Object Repository/test5/Page_Swag Labs/path_SMART_LOCATOR.png"
+    }
+  ]
+}

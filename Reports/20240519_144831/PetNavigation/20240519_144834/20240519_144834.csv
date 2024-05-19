@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PetNavigation,Edge Chromium 124,,,19-05-2024 14:48:40,19-05-2024 14:48:54,14.109s,PASSED
+,,,,,,,
+Test Cases/PetNavigation,Edge Chromium 124,,,19-05-2024 14:48:40,19-05-2024 14:48:54,13.884s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 14:48:41,19-05-2024 14:48:46,4.675s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,19-05-2024 14:48:46,19-05-2024 14:48:48,2.106s,PASSED
+"click(findTestObject(""Object Repository/PetNavigation/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,19-05-2024 14:48:48,19-05-2024 14:48:50,1.925s,PASSED
+"setText(findTestObject(""Object Repository/PetNavigation/Page_JPetStore Demo/input__keyword""), ""fish"")",Edge Chromium 124,,,19-05-2024 14:48:50,19-05-2024 14:48:51,1.047s,PASSED
+"click(findTestObject(""Object Repository/PetNavigation/Page_JPetStore Demo/input__searchProducts""))",Edge Chromium 124,,,19-05-2024 14:48:51,19-05-2024 14:48:51,0.901s,PASSED
+"click(findTestObject(""Object Repository/PetNavigation/Page_JPetStore Demo/a_Fresh Water fish from China""))",Edge Chromium 124,,,19-05-2024 14:48:51,19-05-2024 14:48:52,0.647s,PASSED
+"click(findTestObject(""Object Repository/PetNavigation/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 124,,,19-05-2024 14:48:52,19-05-2024 14:48:53,0.808s,PASSED
+"click(findTestObject(""Object Repository/PetNavigation/Page_JPetStore Demo/a_Remove""))",Edge Chromium 124,,,19-05-2024 14:48:53,19-05-2024 14:48:54,0.648s,PASSED
+closeBrowser(),Edge Chromium 124,,,19-05-2024 14:48:54,19-05-2024 14:48:54,0.768s,PASSED

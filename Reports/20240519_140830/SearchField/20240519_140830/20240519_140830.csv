@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SearchField,Edge Chromium 124,,,19-05-2024 14:08:33,19-05-2024 14:08:43,9.827s,PASSED
+,,,,,,,
+Test Cases/SearchField,Edge Chromium 124,,,19-05-2024 14:08:34,19-05-2024 14:08:43,9.687s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 14:08:34,19-05-2024 14:08:38,4.358s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 124,,,19-05-2024 14:08:38,19-05-2024 14:08:39,0.800s,PASSED
+"click(findTestObject(""Object Repository/searchField/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 124,,,19-05-2024 14:08:39,19-05-2024 14:08:40,1.332s,PASSED
+"click(findTestObject(""Object Repository/searchField/Page_JPetStore Demo/img""))",Edge Chromium 124,,,19-05-2024 14:08:40,19-05-2024 14:08:41,0.748s,PASSED
+"click(findTestObject(""Object Repository/searchField/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 124,,,19-05-2024 14:08:41,19-05-2024 14:08:42,0.640s,PASSED
+"click(findTestObject(""Object Repository/searchField/Page_JPetStore Demo/img_1""))",Edge Chromium 124,,,19-05-2024 14:08:42,19-05-2024 14:08:42,0.651s,PASSED
+"click(findTestObject(""Object Repository/searchField/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 124,,,19-05-2024 14:08:42,19-05-2024 14:08:43,0.631s,PASSED
+closeBrowser(),Edge Chromium 124,,,19-05-2024 14:08:43,19-05-2024 14:08:43,0.302s,PASSED

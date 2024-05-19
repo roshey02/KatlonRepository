@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test2" time="22.995" tests="1" failures="0" errors="0">
+   <testsuite name="test2" tests="1" failures="0" errors="0" time="22.995" skipped="0" timestamp="19-05-2024T14:44:03" hostname="XS986NH - XWB0RGVQ3.ey.net" id="Test Suites/test2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XS986NH\\git\\KatlonRepository\\Reports\\20240519_144349\\test2\\20240519_144352"/>
+         <property name="logFiles" value="C:\\Users\\XS986NH\\git\\KatlonRepository\\Reports\\20240519_144349\\test2\\20240519_144352\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XS986NH - XWB0RGVQ3.ey.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Edge Chromium 124"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="cc3a57345e2ae2f71af5fb0a99474579"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test2" time="22.7" classname="Test Cases/test2" status="PASSED">
+         <system-out><![CDATA[19-05-2024T14:44:03 - [TEST_CASE][PASSED] - Test Cases/test2: Test Cases/test2
+
+19-05-2024T14:44:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+19-05-2024T14:44:04 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+19-05-2024T14:44:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+19-05-2024T14:44:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+19-05-2024T14:44:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/"): Navigate to 'https://www.saucedemo.com/v1/' successfully
+
+19-05-2024T14:44:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/' successfully
+
+19-05-2024T14:44:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+19-05-2024T14:44:12 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+19-05-2024T14:44:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+19-05-2024T14:44:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+19-05-2024T14:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+19-05-2024T14:44:15 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+19-05-2024T14:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test2/Page_Swag Labs/button_ADD TO CART")): Object: 'Object Repository/test2/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+19-05-2024T14:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+19-05-2024T14:44:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test2/Page_Swag Labs/path")): Object: 'Object Repository/test2/Page_Swag Labs/path' is clicked on
+
+19-05-2024T14:44:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/test2/Page_Swag Labs/path'. Try using Self-healing.
+
+19-05-2024T14:44:18 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+19-05-2024T14:44:19 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/XS986NH/git/KatlonRepository/Reports/Self-healing/Object Repository/test2/Page_Swag Labs/path_SMART_LOCATOR.png
+
+19-05-2024T14:44:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/test2/Page_Swag Labs/path' was broken. Propose an alternative one: 'internal:role=link[name="1"i]'.
+
+19-05-2024T14:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_Swag Labs/path' is clicked on
+
+19-05-2024T14:44:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test2/Page_Swag Labs/a_CHECKOUT")): Object: 'Object Repository/test2/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+19-05-2024T14:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+19-05-2024T14:44:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+19-05-2024T14:44:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+19-05-2024T14:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_first-name"), "Roshani"): Text 'Roshani' is set on object 'Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+19-05-2024T14:44:22 - [MESSAGE][PASSED] - Text 'Roshani' is set on object 'Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+19-05-2024T14:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_last-name"), "Sawant"): Text 'Sawant' is set on object 'Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+19-05-2024T14:44:23 - [MESSAGE][PASSED] - Text 'Sawant' is set on object 'Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+19-05-2024T14:44:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_postal-code"), "411007"): Text '411007' is set on object 'Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+19-05-2024T14:44:24 - [MESSAGE][PASSED] - Text '411007' is set on object 'Object Repository/test2/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+19-05-2024T14:44:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test2/Page_Swag Labs/input_CANCEL_btn_primary cart_button")): Object: 'Object Repository/test2/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+19-05-2024T14:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+19-05-2024T14:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test2/Page_Swag Labs/a_FINISH")): Object: 'Object Repository/test2/Page_Swag Labs/a_FINISH' is clicked on
+
+19-05-2024T14:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_Swag Labs/a_FINISH' is clicked on
+
+19-05-2024T14:44:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+19-05-2024T14:44:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-05-2024T14:44:03 - [TEST_SUITE][PASSED] - test2: Test Cases/test2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+pet1,Edge Chromium 124,,,19-05-2024 14:32:39,19-05-2024 14:32:56,16.953s,PASSED
+,,,,,,,
+Test Cases/pet1,Edge Chromium 124,,,19-05-2024 14:32:40,19-05-2024 14:32:56,16.771s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 14:32:40,19-05-2024 14:32:44,4.384s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/actions/Catalog.action"")",Edge Chromium 124,,,19-05-2024 14:32:44,19-05-2024 14:32:46,1.324s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/img""))",Edge Chromium 124,,,19-05-2024 14:32:46,19-05-2024 14:32:47,0.873s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 124,,,19-05-2024 14:32:47,19-05-2024 14:32:47,0.633s,PASSED
+"setText(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/input__keyword""), ""birds"")",Edge Chromium 124,,,19-05-2024 14:32:47,19-05-2024 14:32:48,0.876s,PASSED
+"sendKeys(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/input__keyword""), Keys.chord(ENTER))",Edge Chromium 124,,,19-05-2024 14:32:48,19-05-2024 14:32:49,0.712s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/input__searchProducts""))",Edge Chromium 124,,,19-05-2024 14:32:49,19-05-2024 14:32:49,0.666s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/input__searchProducts""))",Edge Chromium 124,,,19-05-2024 14:32:49,19-05-2024 14:32:50,0.645s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/a_Return to Main Menu""))",Edge Chromium 124,,,19-05-2024 14:32:50,19-05-2024 14:32:51,0.657s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/img_1""))",Edge Chromium 124,,,19-05-2024 14:32:51,19-05-2024 14:32:51,0.644s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/a_RP-SN-01""))",Edge Chromium 124,,,19-05-2024 14:32:51,19-05-2024 14:32:52,0.698s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 124,,,19-05-2024 14:32:52,19-05-2024 14:32:53,0.770s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 124,,,19-05-2024 14:32:53,19-05-2024 14:32:54,0.714s,PASSED
+"setText(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/input_Need a user name and password_username""), ""rosh1"")",Edge Chromium 124,,,19-05-2024 14:32:54,19-05-2024 14:32:54,0.817s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/input_Need a user name and password_password""), ""zXRQAqd5nmk="")",Edge Chromium 124,,,19-05-2024 14:32:54,19-05-2024 14:32:55,0.579s,PASSED
+"click(findTestObject(""Object Repository/pet1/Page_JPetStore Demo/input_Need a user name and password_signon""))",Edge Chromium 124,,,19-05-2024 14:32:55,19-05-2024 14:32:56,1.120s,PASSED
+closeBrowser(),Edge Chromium 124,,,19-05-2024 14:32:56,19-05-2024 14:32:56,0.326s,PASSED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test5,Edge Chromium 124,,,19-05-2024 14:47:26,19-05-2024 14:47:48,22.645s,PASSED
+,,,,,,,
+Test Cases/test5,Edge Chromium 124,,,19-05-2024 14:47:26,19-05-2024 14:47:48,22.461s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 14:47:26,19-05-2024 14:47:30,4.374s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/"")",Edge Chromium 124,,,19-05-2024 14:47:30,19-05-2024 14:47:31,0.662s,PASSED
+maximizeWindow(),Edge Chromium 124,,,19-05-2024 14:47:31,19-05-2024 14:47:31,0.166s,PASSED
+"setText(findTestObject(""Object Repository/test5/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""standard_user"")",Edge Chromium 124,,,19-05-2024 14:47:31,19-05-2024 14:47:32,1.074s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/test5/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""qcu24s4901FyWDTwXGr6XA=="")",Edge Chromium 124,,,19-05-2024 14:47:32,19-05-2024 14:47:33,0.575s,PASSED
+"click(findTestObject(""Object Repository/test5/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 124,,,19-05-2024 14:47:33,19-05-2024 14:47:34,1.167s,PASSED
+"click(findTestObject(""Object Repository/test5/Page_Swag Labs/path""))",Edge Chromium 124,,,19-05-2024 14:47:34,19-05-2024 14:47:37,3.132s,PASSED
+"click(findTestObject(""Object Repository/test5/Page_Swag Labs/a_Continue Shopping""))",Edge Chromium 124,,,19-05-2024 14:47:37,19-05-2024 14:47:38,0.611s,PASSED
+delay(3),Edge Chromium 124,,,19-05-2024 14:47:38,19-05-2024 14:47:41,3.054s,PASSED
+"click(findTestObject(""Object Repository/test5/Page_Swag Labs/button_ADD TO CART""))",Edge Chromium 124,,,19-05-2024 14:47:41,19-05-2024 14:47:41,0.468s,PASSED
+delay(3),Edge Chromium 124,,,19-05-2024 14:47:41,19-05-2024 14:47:44,3.015s,PASSED
+"click(findTestObject(""Object Repository/test5/Page_Swag Labs/button_ADD TO CART""))",Edge Chromium 124,,,19-05-2024 14:47:44,19-05-2024 14:47:45,0.442s,PASSED
+"click(findTestObject(""Object Repository/test5/Page_Swag Labs/path""))",Edge Chromium 124,,,19-05-2024 14:47:45,19-05-2024 14:47:48,3.187s,PASSED
+closeBrowser(),Edge Chromium 124,,,19-05-2024 14:47:48,19-05-2024 14:47:48,0.283s,PASSED

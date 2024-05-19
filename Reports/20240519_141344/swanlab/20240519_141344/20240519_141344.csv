@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+swanlab,Edge Chromium 124,,,19-05-2024 14:13:47,19-05-2024 14:13:56,8.920s,PASSED
+,,,,,,,
+Test Cases/swanlab,Edge Chromium 124,,,19-05-2024 14:13:47,19-05-2024 14:13:56,8.771s,PASSED
+"openBrowser("""")",Edge Chromium 124,,,19-05-2024 14:13:48,19-05-2024 14:13:52,4.356s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/"")",Edge Chromium 124,,,19-05-2024 14:13:52,19-05-2024 14:13:53,0.746s,PASSED
+"setText(findTestObject(""Object Repository/swanlab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), ""rosh"")",Edge Chromium 124,,,19-05-2024 14:13:53,19-05-2024 14:13:54,1.029s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/swanlab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), ""zknBIuFGVdY="")",Edge Chromium 124,,,19-05-2024 14:13:54,19-05-2024 14:13:54,0.643s,PASSED
+"click(findTestObject(""Object Repository/swanlab/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Edge Chromium 124,,,19-05-2024 14:13:54,19-05-2024 14:13:55,0.482s,PASSED
+"click(findTestObject(""Object Repository/swanlab/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909""))",Edge Chromium 124,,,19-05-2024 14:13:55,19-05-2024 14:13:55,0.535s,PASSED
+"verifyElementText(findTestObject(""Object Repository/swanlab/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909""), ""Epic sadface: Username and password do not match any user in this service"")",Edge Chromium 124,,,19-05-2024 14:13:55,19-05-2024 14:13:56,0.399s,PASSED
+closeBrowser(),Edge Chromium 124,,,19-05-2024 14:13:56,19-05-2024 14:13:56,0.328s,PASSED
