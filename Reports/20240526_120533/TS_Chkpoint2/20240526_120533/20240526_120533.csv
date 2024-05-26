@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Chkpoint2,Edge Chromium 125,,,26-05-2024 12:05:37,26-05-2024 12:05:44,7.290s,PASSED
+,,,,,,,
+Test Cases/chkpoint2,Edge Chromium 125,,,26-05-2024 12:05:37,26-05-2024 12:05:44,7.124s,PASSED
+"openBrowser("""")",Edge Chromium 125,,,26-05-2024 12:05:37,26-05-2024 12:05:40,2.861s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 125,,,26-05-2024 12:05:40,26-05-2024 12:05:41,1.001s,PASSED
+"click(findTestObject(""Object Repository/chkpoint/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 125,,,26-05-2024 12:05:41,26-05-2024 12:05:43,1.466s,PASSED
+"takeScreenshotAsCheckpoint(""Homepage"")",Edge Chromium 125,,,26-05-2024 12:05:43,26-05-2024 12:05:44,1.205s,PASSED
+closeBrowser(),Edge Chromium 125,,,26-05-2024 12:05:44,26-05-2024 12:05:44,0.339s,PASSED
